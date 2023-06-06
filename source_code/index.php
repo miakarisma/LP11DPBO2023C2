@@ -1,4 +1,8 @@
 <?php
+/*
+Saya Mia Karisma Haq NIM [2102165] mengerjakan soal Latihan Praktikum-11 dalam mata kuliah DPBO 
+untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
+*/
 
 /******************************************
 Asisten Pemrogaman 11
