@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.php">WIW</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <div class="col-lg-6 m-auto">
+      <form method="post" action="index.php?id_edit=DATA_ID">
+        <br /><br />
+        <div class="card">
+          <div class="card-header bg-dark">
+            <h1 class="text-white text-center">DATA_TITLE</h1>
+          </div>
+          <br />
+
+          <label> NIK: </label>
+          <input
+            type="number"
+            name="nik"
+            class="form-control"
+            id="nik"
+            value="DATA_VAL_NIK"
+          />
+          <br />
+
+          <label> NAMA: </label>
+          <input
+            type="text"
+            name="nama"
+            class="form-control"
+            id="nama"
+            value="DATA_VAL_NAMA"
+          />
+          <br />
+
+          <label> TEMPAT: </label>
+          <input
+            type="text"
+            name="tempat"
+            class="form-control"
+            id="tempat"
+            value="DATA_VAL_TEMPAT"
+          />
+          <br />
+
+          <label> TANGGAL LAHIR: </label>
+          <input
+            type="date"
+            name="tl"
+            class="form-control"
+            id="tl"
+            value="DATA_VAL_TL"
+          />
+          <br />
+
+          <label> GENDER: </label>
+          <input
+            type="text"
+            name="gender"
+            class="form-control"
+            id="gender"
+            value="DATA_VAL_GENDER"
+          />
+          <br />
+
+          <label> EMAIL: </label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="email"
+            value="DATA_VAL_EMAIL"
+          />
+          <br />
+
+          <label> PHONE: </label>
+          <input
+            type="number"
+            name="telp"
+            class="form-control"
+            id="telp"
+            value="DATA_VAL_PHONE"
+          />
+          <br />
+
+          <button class="btn btn-success mt-5" type="submit" name="submit">
+            Submit</button
+          ><br />
+          <a class="btn btn-info" type="submit" name="cancel" href="index.php">
+            Cancel </a><br />
+        </div>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
